@@ -7695,3 +7695,1386 @@ Processing by HomePageController#index as HTML
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
   Rendered shared/_navbar.html.erb (1.8ms)
 Completed 200 OK in 355ms (Views: 353.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 165.91.12.153 at 2017-11-16 23:20:30 +0000
+Cannot render console from 165.91.12.153! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomePageController#index as HTML
+  [1m[35mBoat Load (0.3ms)[0m  SELECT  "boats".* FROM "boats" LIMIT 8
+  [1m[36mBoatAttachment Load (0.4ms)[0m  [1mSELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?[0m  [["boat_id", 1]]
+  [1m[35mBoatAttachment Load (0.1ms)[0m  SELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?  [["boat_id", 2]]
+  [1m[36mBoatAttachment Load (0.1ms)[0m  [1mSELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?[0m  [["boat_id", 3]]
+  [1m[35mBoatAttachment Load (0.1ms)[0m  SELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?  [["boat_id", 4]]
+  Rendered home_page/index.html.erb within layouts/application (83.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_navbar.html.erb (23.6ms)
+Completed 200 OK in 2536ms (Views: 2514.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/boats.self-97e82eb31fd9681f554be2c267e291e7da96876185e3414b4f9486b1922e80af.css?body=1" for 165.91.12.153 at 2017-11-16 23:20:32 +0000
+Cannot render console from 165.91.12.153! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/boats" for 165.91.12.153 at 2017-11-16 23:20:34 +0000
+Cannot render console from 165.91.12.153! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoatsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBoat Load (0.4ms)[0m  [1mSELECT "boats".* FROM "boats"[0m
+  [1m[35mBoatAttachment Load (0.1ms)[0m  SELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?  [["boat_id", 1]]
+  [1m[36mBoatAttachment Load (0.1ms)[0m  [1mSELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?[0m  [["boat_id", 2]]
+  [1m[35mBoatAttachment Load (0.1ms)[0m  SELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?  [["boat_id", 3]]
+  [1m[36mBoatAttachment Load (0.1ms)[0m  [1mSELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?[0m  [["boat_id", 4]]
+  Rendered boats/index.html.erb within layouts/application (8.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 252ms (Views: 240.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 165.91.12.153 at 2017-11-16 23:29:45 +0000
+Cannot render console from 165.91.12.153! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomePageController#index as HTML
+  [1m[35mBoat Load (0.3ms)[0m  SELECT  "boats".* FROM "boats" LIMIT 8
+  [1m[36mBoatAttachment Load (0.2ms)[0m  [1mSELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?[0m  [["boat_id", 1]]
+  [1m[35mBoatAttachment Load (0.1ms)[0m  SELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?  [["boat_id", 2]]
+  [1m[36mBoatAttachment Load (0.1ms)[0m  [1mSELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?[0m  [["boat_id", 3]]
+  [1m[35mBoatAttachment Load (0.1ms)[0m  SELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?  [["boat_id", 4]]
+  Rendered home_page/index.html.erb within layouts/application (93.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_navbar.html.erb (22.9ms)
+Completed 200 OK in 745ms (Views: 723.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/boats" for 165.91.12.153 at 2017-11-16 23:29:48 +0000
+Cannot render console from 165.91.12.153! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BoatsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBoat Load (0.3ms)[0m  [1mSELECT "boats".* FROM "boats"[0m
+  [1m[35mBoatAttachment Load (0.1ms)[0m  SELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?  [["boat_id", 1]]
+  [1m[36mBoatAttachment Load (0.1ms)[0m  [1mSELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?[0m  [["boat_id", 2]]
+  [1m[35mBoatAttachment Load (0.1ms)[0m  SELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?  [["boat_id", 3]]
+  [1m[36mBoatAttachment Load (0.1ms)[0m  [1mSELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?[0m  [["boat_id", 4]]
+  Rendered boats/index.html.erb within layouts/application (7.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 207ms (Views: 199.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 165.91.12.153 at 2017-11-16 23:29:49 +0000
+Cannot render console from 165.91.12.153! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomePageController#index as HTML
+  [1m[35mBoat Load (0.3ms)[0m  SELECT  "boats".* FROM "boats" LIMIT 8
+  [1m[36mBoatAttachment Load (0.1ms)[0m  [1mSELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?[0m  [["boat_id", 1]]
+  [1m[35mBoatAttachment Load (0.1ms)[0m  SELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?  [["boat_id", 2]]
+  [1m[36mBoatAttachment Load (0.1ms)[0m  [1mSELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?[0m  [["boat_id", 3]]
+  [1m[35mBoatAttachment Load (0.1ms)[0m  SELECT "boat_attachments".* FROM "boat_attachments" WHERE "boat_attachments"."boat_id" = ?  [["boat_id", 4]]
+  Rendered home_page/index.html.erb within layouts/application (6.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_navbar.html.erb (1.9ms)
+Completed 200 OK in 206ms (Views: 204.6ms | ActiveRecord: 0.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddStateCityToBoats (20171114055533)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TEMPORARY TABLE "aboats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer, "depth" integer, "height" integer, "water" text, "capacity" integer, "state" text, "city" text) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "boats"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity","state","city") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1, 1, 1, 'salt water', 1, 'Kentucky', 'Banner')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity","state","city") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2, 2, 2, 'salt water', 2, 'Louisiana', 'Bastrop')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity","state","city") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3, 3, 3, 'salt water', 3, 'Kentucky', 'Bagdad')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity","state","city") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4, 4, 4, 'salt water', 4, 'Kentucky', 'Bagdad')
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "boats"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer, "depth" integer, "height" integer, "water" text, "capacity" integer, "state" text) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "aboats"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity","state") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1, 1, 1, 'salt water', 1, 'Kentucky')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity","state") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2, 2, 2, 'salt water', 2, 'Louisiana')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity","state") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3, 3, 3, 'salt water', 3, 'Kentucky')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity","state") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4, 4, 4, 'salt water', 4, 'Kentucky')[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "aboats"
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "aboats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer, "depth" integer, "height" integer, "water" text, "capacity" integer, "state" text) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "boats"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity","state") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1, 1, 1, 'salt water', 1, 'Kentucky')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity","state") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2, 2, 2, 'salt water', 2, 'Louisiana')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity","state") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3, 3, 3, 'salt water', 3, 'Kentucky')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity","state") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4, 4, 4, 'salt water', 4, 'Kentucky')
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "boats"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer, "depth" integer, "height" integer, "water" text, "capacity" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "aboats"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1, 1, 1, 'salt water', 1)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2, 2, 2, 'salt water', 2)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3, 3, 3, 'salt water', 3)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4, 4, 4, 'salt water', 4)[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "aboats"
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20171114055533"]]
+  [1m[35m (10.8ms)[0m  commit transaction
+Migrating to AddWidthDepthHeightWaterCapacityToBoats (20171114040159)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TEMPORARY TABLE "aboats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer, "depth" integer, "height" integer, "water" text, "capacity" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "boats"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1, 1, 1, 'salt water', 1)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2, 2, 2, 'salt water', 2)[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3, 3, 3, 'salt water', 3)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water","capacity") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4, 4, 4, 'salt water', 4)[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "boats"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer, "depth" integer, "height" integer, "water" text) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aboats"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1, 1, 1, 'salt water')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2, 2, 2, 'salt water')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3, 3, 3, 'salt water')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4, 4, 4, 'salt water')
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "aboats"[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "aboats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer, "depth" integer, "height" integer, "water" text) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "boats"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1, 1, 1, 'salt water')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2, 2, 2, 'salt water')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3, 3, 3, 'salt water')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height","water") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4, 4, 4, 'salt water')[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "boats"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer, "depth" integer, "height" integer) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aboats"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1, 1, 1)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2, 2, 2)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3, 3, 3)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4, 4, 4)
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "aboats"[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "aboats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer, "depth" integer, "height" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "boats"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1, 1, 1)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2, 2, 2)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3, 3, 3)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth","height") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4, 4, 4)[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "boats"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer, "depth" integer) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aboats"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1, 1)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2, 2)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3, 3)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4, 4)
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "aboats"[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "aboats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer, "depth" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "boats"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1, 1)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2, 2)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3, 3)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width","depth") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4, 4)[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "boats"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aboats"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4)
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "aboats"[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "aboats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar, "width" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "boats"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx', 1)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx', 2)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx', 3)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name","width") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx', 4)[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "boats"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aboats"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx')
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "aboats"[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20171114040159"]]
+  [1m[36m (11.3ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRents (20171110094844)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "rents"[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20171110094844"]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+Migrating to AddConfirmableToDevise (20171107000928)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_confirmation_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_confirmation_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  DROP INDEX "index_users_on_confirmation_token"
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "address_line1" varchar(50), "address_line2" varchar(50), "city" varchar, "state" varchar, "zip_code" varchar, "confirmation_token" varchar, "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","address_line1","address_line2","city","state","zip_code","confirmation_token","confirmed_at","confirmation_sent_at","unconfirmed_email") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '39z-3iz5x1G7-yrnFSLQ', '2017-11-16 22:15:09.615836', '2017-11-16 22:14:43.897819', NULL)
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "address_line1" varchar(50), "address_line2" varchar(50), "city" varchar, "state" varchar, "zip_code" varchar, "confirmation_token" varchar, "confirmed_at" datetime, "confirmation_sent_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "ausers"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","address_line1","address_line2","city","state","zip_code","confirmation_token","confirmed_at","confirmation_sent_at") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '39z-3iz5x1G7-yrnFSLQ', '2017-11-16 22:15:09.615836', '2017-11-16 22:14:43.897819')[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "ausers"
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "address_line1" varchar(50), "address_line2" varchar(50), "city" varchar, "state" varchar, "zip_code" varchar, "confirmation_token" varchar, "confirmed_at" datetime, "confirmation_sent_at" datetime) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "users"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","address_line1","address_line2","city","state","zip_code","confirmation_token","confirmed_at","confirmation_sent_at") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '39z-3iz5x1G7-yrnFSLQ', '2017-11-16 22:15:09.615836', '2017-11-16 22:14:43.897819')[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "users"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "address_line1" varchar(50), "address_line2" varchar(50), "city" varchar, "state" varchar, "zip_code" varchar, "confirmation_token" varchar, "confirmed_at" datetime) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "ausers"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","address_line1","address_line2","city","state","zip_code","confirmation_token","confirmed_at") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '39z-3iz5x1G7-yrnFSLQ', '2017-11-16 22:15:09.615836')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "ausers"[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "address_line1" varchar(50), "address_line2" varchar(50), "city" varchar, "state" varchar, "zip_code" varchar, "confirmation_token" varchar, "confirmed_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","address_line1","address_line2","city","state","zip_code","confirmation_token","confirmed_at") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '39z-3iz5x1G7-yrnFSLQ', '2017-11-16 22:15:09.615836')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "address_line1" varchar(50), "address_line2" varchar(50), "city" varchar, "state" varchar, "zip_code" varchar, "confirmation_token" varchar) 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "ausers"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","address_line1","address_line2","city","state","zip_code","confirmation_token") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '39z-3iz5x1G7-yrnFSLQ')[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "ausers"
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "address_line1" varchar(50), "address_line2" varchar(50), "city" varchar, "state" varchar, "zip_code" varchar, "confirmation_token" varchar) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")
+  [1m[36m (0.1ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "users"
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","address_line1","address_line2","city","state","zip_code","confirmation_token") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '39z-3iz5x1G7-yrnFSLQ')[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "users"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "address_line1" varchar(50), "address_line2" varchar(50), "city" varchar, "state" varchar, "zip_code" varchar) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "ausers"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","address_line1","address_line2","city","state","zip_code") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "ausers"[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20171107000928"]]
+  [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
+Migrating to AddOwnernameToBoats (20171030032213)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "aboats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar, "owner_name" varchar) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "boats"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL, 'xxx xxx')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL, 'xxx xxx')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL, 'xxx xxx')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video","owner_name") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL, 'xxx xxx')
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "boats"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar) 
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "aboats"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL)[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "aboats"
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20171030032213"]]
+  [1m[35m (9.5ms)[0m  commit transaction
+Migrating to InstallCommontator (20171027190633)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_threads_on_c_id_and_c_type' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_threads_on_c_id_and_c_type' AND type='index'
+
+  [1m[36m (0.3ms)[0m  [1mDROP INDEX "index_commontator_threads_on_c_id_and_c_type"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "commontator_threads"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_subscriptions_on_thread_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_subscriptions_on_thread_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_subscriptions_on_s_id_and_s_type_and_t_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_subscriptions_on_s_id_and_s_type_and_t_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mDROP INDEX "index_commontator_subscriptions_on_thread_id"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_subscriptions_on_s_id_and_s_type_and_t_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_subscriptions_on_s_id_and_s_type_and_t_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mDROP INDEX "index_commontator_subscriptions_on_s_id_and_s_type_and_t_id"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "commontator_subscriptions"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_cached_votes_down' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_cached_votes_down' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_cached_votes_up' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_cached_votes_up' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_thread_id_and_created_at' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_thread_id_and_created_at' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mDROP INDEX "index_commontator_comments_on_cached_votes_down"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_cached_votes_up' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_cached_votes_up' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_thread_id_and_created_at' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_thread_id_and_created_at' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mDROP INDEX "index_commontator_comments_on_cached_votes_up"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_thread_id_and_created_at' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_thread_id_and_created_at' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  DROP INDEX "index_commontator_comments_on_thread_id_and_created_at"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  DROP INDEX "index_commontator_comments_on_c_id_and_c_type_and_t_id"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "commontator_comments"[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20171027190633"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+Migrating to AddVideoToBoats (20171024161124)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "aboats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text, "video" varchar) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "boats"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1', NULL)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2', NULL)
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3', NULL)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location","video") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4', NULL)
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "boats"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "aboats"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4')[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "aboats"
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20171024161124"]]
+  [1m[35m (7.3ms)[0m  commit transaction
+Migrating to CreateCaptains (20171023151203)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "captains"
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20171023151203"]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Migrating to AddOwneridPriceLocationToBoats (20171023060933)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TEMPORARY TABLE "aboats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer, "location" text) 
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "boats"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1, '1')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2, '2')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3, '3')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price","location") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4, '4')[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "boats"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aboats"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4)
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "aboats"[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "aboats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer, "price" integer) 
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "boats"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1, 1)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1, 2)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1, 3)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid","price") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1, 4)[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "boats"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aboats"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at","ownerid") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1)
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "aboats"[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "aboats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "ownerid" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "boats"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510', 1)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870', 1)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431', 1)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aboats" ("id","name","description","image","available_date","created_at","updated_at","ownerid") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797', 1)[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "boats"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aboats"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at") VALUES (1, '1', '1', NULL, '11/23/2017,11/22/2017,11/29/2017,11/30/2017', '2017-11-16 22:15:38.030510', '2017-11-16 22:15:38.030510')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at") VALUES (2, '2', '2', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:16:23.944870', '2017-11-16 22:16:23.944870')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at") VALUES (3, '3', '3', NULL, '11/08/2017', '2017-11-16 22:17:15.409431', '2017-11-16 22:17:15.409431')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "boats" ("id","name","description","image","available_date","created_at","updated_at") VALUES (4, '4', '4', NULL, '11/14/2017,11/15/2017,11/21/2017,11/22/2017', '2017-11-16 22:23:14.142797', '2017-11-16 22:23:14.142797')
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "aboats"[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20171023060933"]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+Migrating to AlterUserAddress (20171023032222)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "address_line1" varchar(50), "address_line2" varchar(50), "city" varchar, "state" varchar, "zip_code" varchar) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "users"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","address_line1","address_line2","city","state","zip_code") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx')[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "users"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "address_line2" varchar(50), "city" varchar, "state" varchar, "zip_code" varchar) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "ausers"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","address_line2","city","state","zip_code") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx', 'xxx')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "ausers"[0m
+  [1m[35m (0.3ms)[0m  CREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "address_line2" varchar(50), "city" varchar, "state" varchar, "zip_code" varchar) 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")[0m
+  [1m[35m (0.3ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","address_line2","city","state","zip_code") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx', 'xxx')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "city" varchar, "state" varchar, "zip_code" varchar) 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "ausers"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","city","state","zip_code") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx')[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "ausers"
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "city" varchar, "state" varchar, "zip_code" varchar) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "users"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","city","state","zip_code") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx', 'xxx')[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "users"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "state" varchar, "zip_code" varchar) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "ausers"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","state","zip_code") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "ausers"[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "state" varchar, "zip_code" varchar) 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")[0m
+  [1m[35m (0.1ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","state","zip_code") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx', 'xxx')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "zip_code" varchar) 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "ausers"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","zip_code") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx')[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "ausers"
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f', "zip_code" varchar) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "users"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain","zip_code") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f', 'xxx')[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "users"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f') [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "ausers"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "ausers"[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20171023032222"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateBoatAttachments (20171020220301)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mDROP TABLE "boat_attachments"[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20171020220301"]]
+  [1m[36m (7.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddFieldsToDeviseUsers (20171020182539)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "first_name" varchar DEFAULT '' NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f') [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "users"
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","first_name","last_name","isCaptain") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'xxx', 'f')[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "users"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f') [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "ausers"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","last_name","isCaptain") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'f')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "ausers"[0m
+  [1m[35m (0.3ms)[0m  CREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "last_name" varchar, "isCaptain" boolean DEFAULT 'f') 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","last_name","isCaptain") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'xxx', 'f')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "isCaptain" boolean DEFAULT 'f') 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "ausers"
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","isCaptain") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'f')[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "ausers"
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "isCaptain" boolean DEFAULT 'f') [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "users"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at","isCaptain") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757', 'f')[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "users"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_ausers_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "ausers"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","sign_in_count","current_sign_in_at","last_sign_in_at","current_sign_in_ip","last_sign_in_ip","created_at","updated_at") VALUES (1, 'gh.akshay@gmail.com', '$2a$10$r9D76ngzC8cI1Yha4y7juexZBmL0vCsEIMHZa0QIpjNj45VOdSHzS', NULL, NULL, NULL, 1, '2017-11-16 22:15:17.126305', '2017-11-16 22:15:17.126305', '165.91.12.153', '165.91.12.153', '2017-11-16 22:14:43.704634', '2017-11-16 22:15:17.127757')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "ausers"[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20171020182539"]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateBoats (20171006050103)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "boats"[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20171006050103"]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+Migrating to DeviseCreateUsers (20171004044950)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mDROP INDEX "index_users_on_reset_password_token"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.3ms)[0m  [1mDROP INDEX "index_users_on_email"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "users"
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20171004044950"]]
+  [1m[35m (6.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20171004044950)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171004044950"]]
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreateBoats (20171006050103)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "boats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "image" varchar, "available_date" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171006050103"]]
+  [1m[36m (6.1ms)[0m  [1mcommit transaction[0m
+Migrating to AddFieldsToDeviseUsers (20171020182539)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "first_name" varchar DEFAULT '' NOT NULL[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "last_name" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "isCaptain" boolean DEFAULT 'f'[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171020182539"]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+Migrating to CreateBoatAttachments (20171020220301)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "boat_attachments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "boat_id" integer, "image" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171020220301"]]
+  [1m[36m (7.1ms)[0m  [1mcommit transaction[0m
+Migrating to AlterUserAddress (20171023032222)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "address_line1" varchar(50)[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "address_line2" varchar(50)
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "city" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "state" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "zip_code" varchar[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171023032222"]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Migrating to AddOwneridPriceLocationToBoats (20171023060933)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "boats" ADD "ownerid" integer[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "boats" ADD "price" integer
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "boats" ADD "location" text[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171023060933"]]
+  [1m[36m (7.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCaptains (20171023151203)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "captains" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "age" integer(5), "year_experience" integer(5), "comments" text(1000), "first_available_date" date, "monday_availability" time, "tuesday_availability" time, "wednesday_availability" time, "thurdsay_availability" time, "friday_availability" time, "saturday_availability" time, "sunday_availability" time, "monday" boolean DEFAULT 'f', "tuesday" boolean DEFAULT 'f', "wednesday" boolean DEFAULT 'f', "thursday" boolean DEFAULT 'f', "friday" boolean DEFAULT 'f', "saturday" boolean DEFAULT 'f', "sunday" boolean DEFAULT 'f', "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171023151203"]]
+  [1m[36m (7.1ms)[0m  [1mcommit transaction[0m
+Migrating to AddVideoToBoats (20171024161124)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "boats" ADD "video" varchar[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171024161124"]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+Migrating to InstallCommontator (20171027190633)
+  [1m[35m (0.1ms)[0m  begin transaction
+DEPRECATION WARNING: `#timestamps` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/ubuntu/workspace/boat-rental-management/db/migrate/20171027190633_install_commontator.commontator.rb:16)
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "commontator_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "creator_type" varchar, "creator_id" integer, "editor_type" varchar, "editor_id" integer, "thread_id" integer NOT NULL, "body" text NOT NULL, "deleted_at" datetime, "cached_votes_up" integer DEFAULT 0, "cached_votes_down" integer DEFAULT 0, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.2ms)[0m  CREATE  INDEX "index_commontator_comments_on_c_id_and_c_type_and_t_id" ON "commontator_comments" ("creator_id", "creator_type", "thread_id")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE  INDEX "index_commontator_comments_on_thread_id_and_created_at" ON "commontator_comments" ("thread_id", "created_at")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_thread_id_and_created_at' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_thread_id_and_created_at' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_commontator_comments_on_cached_votes_up" ON "commontator_comments" ("cached_votes_up")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_cached_votes_up' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_cached_votes_up' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_thread_id_and_created_at' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_thread_id_and_created_at' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_commontator_comments_on_cached_votes_down" ON "commontator_comments" ("cached_votes_down")[0m
+DEPRECATION WARNING: `#timestamps` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/ubuntu/workspace/boat-rental-management/db/migrate/20171027190633_install_commontator.commontator.rb:31)
+  [1m[35m (0.2ms)[0m  CREATE TABLE "commontator_subscriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "subscriber_type" varchar NOT NULL, "subscriber_id" integer NOT NULL, "thread_id" integer NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_commontator_subscriptions_on_s_id_and_s_type_and_t_id" ON "commontator_subscriptions" ("subscriber_id", "subscriber_type", "thread_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_subscriptions_on_s_id_and_s_type_and_t_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_subscriptions_on_s_id_and_s_type_and_t_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_commontator_subscriptions_on_thread_id" ON "commontator_subscriptions" ("thread_id")[0m
+DEPRECATION WARNING: `#timestamps` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/ubuntu/workspace/boat-rental-management/db/migrate/20171027190633_install_commontator.commontator.rb:46)
+  [1m[35m (0.2ms)[0m  CREATE TABLE "commontator_threads" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "commontable_type" varchar, "commontable_id" integer, "closed_at" datetime, "closer_type" varchar, "closer_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_commontator_threads_on_c_id_and_c_type" ON "commontator_threads" ("commontable_id", "commontable_type")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171027190633"]]
+  [1m[36m (9.8ms)[0m  [1mcommit transaction[0m
+Migrating to AddOwnernameToBoats (20171030032213)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "boats" ADD "owner_name" varchar[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171030032213"]]
+  [1m[36m (7.2ms)[0m  [1mcommit transaction[0m
+Migrating to AddConfirmableToDevise (20171107000928)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "confirmation_token" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "confirmed_at" datetime
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "confirmation_sent_at" datetime[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "unconfirmed_email" varchar
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_confirmation_token" ON "users" ("confirmation_token")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171107000928"]]
+  [1m[36m (8.5ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRents (20171110094844)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "rents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "comments" text(1000), "date_required" text, "captainRequired" boolean DEFAULT 'f', "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171110094844"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+Migrating to AddWidthDepthHeightWaterCapacityToBoats (20171114040159)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "boats" ADD "width" integer[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "boats" ADD "depth" integer
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "boats" ADD "height" integer[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "boats" ADD "water" text
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "boats" ADD "capacity" integer[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171114040159"]]
+  [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
+Migrating to AddStateCityToBoats (20171114055533)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "boats" ADD "state" text[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "boats" ADD "city" text
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171114055533"]]
+  [1m[35m (7.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_cached_votes_down' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_cached_votes_down' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_cached_votes_up' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_cached_votes_up' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_thread_id_and_created_at' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_thread_id_and_created_at' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_comments_on_c_id_and_c_type_and_t_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_subscriptions_on_thread_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_subscriptions_on_thread_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_subscriptions_on_s_id_and_s_type_and_t_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_subscriptions_on_s_id_and_s_type_and_t_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_commontator_threads_on_c_id_and_c_type' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_commontator_threads_on_c_id_and_c_type' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_confirmation_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_confirmation_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 165.91.12.153 at 2017-11-16 23:31:13 +0000
+Cannot render console from 165.91.12.153! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomePageController#index as HTML
+  [1m[35mBoat Load (0.2ms)[0m  SELECT  "boats".* FROM "boats" LIMIT 8
+  Rendered home_page/index.html.erb within layouts/application (4.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_navbar.html.erb (16.0ms)
+Completed 200 OK in 672ms (Views: 653.1ms | ActiveRecord: 1.3ms)
