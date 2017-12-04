@@ -53,6 +53,8 @@ $( document ).on('turbolinks:load',function(){
                 }
             },
             fail: function(e, data) {
+
+                alert(e)
                 submitButton.prop('disabled', false);
 
                 progressBar.
