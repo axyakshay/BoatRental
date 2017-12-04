@@ -48,13 +48,11 @@ $( document ).on('turbolinks:load',function(){
                         $('#file_position').val($('#file_position').val() + ',' + url);
                     }
                 }
-                else if(ftype=='mp4' || ftype=='avi'|| ftype=='wmv'){
+                else if(ftype=='mp4' || ftype=='avi'|| ftype=='wmv'|| ftype=='MP4'|| ftype=='AVI'|| ftype=='WMV'){
                     $('#video_position').val(url);
                 }
             },
             fail: function(e, data) {
-
-                alert(e)
                 submitButton.prop('disabled', false);
 
                 progressBar.

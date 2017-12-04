@@ -98,7 +98,10 @@
 <div class="post-page-lower">
   <%= commontator_thread(@boat) %>
   <% if @boat.ownerid==current_user.id %>
-      <%= link_to 'Edit', edit_boat_path(@boat) %> |
+      &nbsp;
+      <td><%= link_to 'Edit', edit_boat_path(@boat) %></td>
+      &nbsp;
+      <td><%= link_to 'Destroy', @boat, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   <% end %>
   <%= link_to 'Back', boats_path %>
 </div>

@@ -5,6 +5,7 @@
         <div class="search-text">
             <h2>your adventure starts here...</h2>
         </div>
+
     <!-- Search Bar Here -->
 
         
@@ -41,12 +42,11 @@
     </div>
 
     <p class="search-clear">
-    Feature Boats:
+    <br>Feature Boats : <br>
     </p>
-    <div class="boat_panel" >
     &nbsp;
-    &nbsp;
-    <% @boats.limit(8).each_slice(4).each do |group| %>
+    <div>&nbsp;
+    <% @boats.limit(6).each_slice(3).each do |group| %>
         <% group.each do |boat| %>
         &nbsp;
             <% if boat.id !=nil %>
